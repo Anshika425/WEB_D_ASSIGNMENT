@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project:Accessible Student Admission Page</title>
+</head>
+<body>
+    <h1>ABC College Admission 2026</h1> 
+    <h3>Courses and Fees</h3>
+    <table>
+    <caption>Available Courses</caption>
+    <thead>
+        <tr>
+            <th>Courses</th>
+            <th>Seats</th>
+            <th>Fees</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td>B.tech CSE</td> 
+                <td>120</td> 
+                <td>&#8377; 90,000</td>
+            </tr>
+            <tr>
+                <td>BCA</td>
+                <td>60</td>
+                <td>&#8377; 45,000</td>
+            </tr>
+        </tbody>
+    </thead>
+    </table>
+<form>
+    <legend>Application Form</legend>
+    <p>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    </p>
+    <p>
+        <label for="email">Email:</label>
+        <input type="text" id="email" value="email">
+    </p>
+    <p>
+        <label for="courses">Courses</label>
+        <select id="courses" id="courses">
+        <option value="Cse">CSE</option>
+        <option value="Me">ME</option>
+        <option value="Ece">ECE</option>
+        <option value="Ce">CE</option>
+        </select>
+    </p>
+    <p>
+        <label for="Statement">Statement:</label>
+        <input type="textarea" id="statement" name="Statement">
+    </p>
+    <p>
+        <input type="Apply" value="Apply">
+    </p>
+</form>
+</body>
+</html>
